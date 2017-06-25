@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #F7F7F7;
+        }
+        .andriod{
+            width: 600px;
+            height: 400px;
+            margin:100px auto;
+            background: white;
+            overflow: hidden;
+        }
+        header{
+            width: 220px;
+            height: 100px;
+            background: #a4ca39;
+            margin: 10px auto;
+            border-radius:100px 100px 0 0 ;
+            position: relative;
+        }
+        header::before{
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius:50%;
+            position: absolute;
+            top:40px;
+            left:65px;
+        }
+        header::after{
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius:50%;
+            position: absolute;
+            top:40px;
+            right:65px;
+        }
+        section{
+            width: 220px;
+            height: 180px;
+            background: #a4ca39;
+            margin: 10px auto 0px;
+            border-radius:0 0 30px 30px;
+            position: relative;
+        }
+        section::before{
+            content:"";
+            position: absolute;
+            width: 45px;
+            height: 120px;
+            background: #a4ca39;
+            border-radius:20px;
+            top:10px;
+            left:-65px;
+        }
+        section::after{
+            content:"";
+            position: absolute;
+            width: 45px;
+            height: 120px;
+            background: #a4ca39;
+            border-radius:20px;
+            top:10px;
+            right:-65px;
+        }
+        footer{
+            width: 220px;
+            height: 180px;
+            margin: 0px auto;
+            position: relative;
+        }
+        footer:before{
+            content:"";
+            position: absolute;
+            width: 45px;
+            height: 90px;
+            background: #a4ca39;
+            border-radius:0 0 20px 20px;
+            left:45px;
+        }
+        footer:after{
+            content:"";
+            position: absolute;
+            width: 45px;
+            height: 90px;
+            background: #a4ca39;
+            border-radius:0 0 20px 20px;
+            right:45px;
+        }
+    </style>
+</head>
+<body>
+<div class="andriod">
+    <header></header>
+    <section></section>
+    <footer></footer>
+</div>
+</body>
+</html>
