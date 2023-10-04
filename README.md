@@ -1,2 +1,2 @@
-# jizhidexiaohuang.github.io
-个人主页
+# 一个jq的动画效果展示
+
